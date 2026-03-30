@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendulum Climb - Hard Mode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui">
+            <h1>Height: <span id="score">0</span>m</h1>
+            <p>Click/Tap to Release & Catch</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Prevents scrolling */
+    background-color: #1a1a1a;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+canvas {
+    display: block;
+}
+
+#ui {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    pointer-events: none; /* Allows clicks to pass through to the game */
+}
